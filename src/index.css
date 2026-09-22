@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg: #FFFFFF;
+    --surface: #FFFFFF;
+    --surface-2: #F7FAFC;
+    --sidebar: #073B5C;
+    --sidebar-text: #BFD6E1;
+    --sidebar-active: #0C4E75;
+    --banner-from: #1E5A78;
+    --banner-to: #073B52;
+    --accent: #0C737E;
+    --accent-hover: #095F68;
+    --tc-blue: #1D5BD8;
+    --tc-cyan: #00C4B4;
+    --ink: #0E1E28;
+    --muted: #3E5763;
+    --faint: #607884;
+    --border: #CBDAE1;
+    --border-soft: #DCE8ED;
+    --chip: #E1EFEE;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #0E1E28;
+    background-color: #F8FAFC;
+  }
+  
+  .font-mono-code {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
